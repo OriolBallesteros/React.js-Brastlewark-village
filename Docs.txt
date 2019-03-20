@@ -1,0 +1,16 @@
+﻿Llibraries afegides: 
+- axios --> llibreria per a la gestió de crides API. 
+            S'està erigint, gairebé, com la llibreria per defecte a l'hora d'aquestes funcions.
+            Ofereix certs avantatges sobre fetch() (fetch guanya en ser lliure de llibreries) suficients per incloure axios.
+
+- redux, react-redux --> per ús d'un state 'descentralitzat', deslligat dels components.
+
+- thunk --> integració de redux amb funcions asíncrones. (Crida API).
+
+- enzyme, enzyme-adapter-react-16 --> a l'hora del testing. Enzyme ofereix funcionalitats més cómodes. 
+            El seu ús requereix de la configuració de l'adapter.
+- enzyme-to-json --> per a una millor configuració dels snapshots del testing. Una lectura
+            més directe de l'snapshot. Alhora ens deslliura de cridar '.toJSON()' en cada
+            test per aconseguir el mateix efecte.
+
+- node-sass --> pre-processador de CSS. I ús dels seus avantatges: ús de variables, nesting, partials, mixins, etc.

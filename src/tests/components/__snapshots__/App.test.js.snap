@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component tests should render App component when no error produced 1`] = `
+<Fragment>
+  <div
+    className="App"
+  >
+    <h1>
+      Meet people in Brastlewark
+    </h1>
+    <form
+      onSubmit={[MockFunction]}
+    >
+      <div>
+        <Options
+          list={
+            Array [
+              "prof1",
+              "prof2",
+              "prof3",
+            ]
+          }
+          onHandleChange={[MockFunction]}
+        />
+        <Options
+          list={
+            Array [
+              "hair1",
+              "hair2",
+              "hair3",
+            ]
+          }
+          onHandleChange={[MockFunction]}
+        />
+        <Options
+          list={
+            Array [
+              "Male",
+              "Female",
+            ]
+          }
+          onHandleChange={[MockFunction]}
+        />
+      </div>
+      <button
+        disabled={false}
+      >
+        Search
+      </button>
+    </form>
+    <div>
+      <p>
+        (Remember you must select job, hair color and genre)
+      </p>
+      <ul>
+        <li>
+          Job:
+           
+          prof
+        </li>
+        <li>
+          Hair:
+           
+          hair
+        </li>
+        <li>
+          Genre:
+           
+          genre
+        </li>
+      </ul>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`App component tests should render ErrorMessage component when produced error on App component 1`] = `
+<Fragment>
+  <ErrorMessage
+    error={true}
+  />
+</Fragment>
+`;

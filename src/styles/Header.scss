@@ -1,0 +1,25 @@
+.Header {
+    text-align: center;
+    width: 99%;
+    border: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    padding: 0;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: #009999;
+
+    h1{
+        font-family: 'Srisakdi', cursive;
+    }
+}
+
+.NavLink{
+    margin: 10px;
+}
+
+.is-active {
+    font-weight: bold;
+}

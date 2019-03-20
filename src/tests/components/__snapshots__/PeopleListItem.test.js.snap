@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App component correctly 1`] = `
+<Link
+  className="PeopleListItem"
+  replace={false}
+  to="/selected/0"
+>
+  <p>
+    Tobus Quickwhistle
+  </p>
+  <p>
+    306
+     years old
+  </p>
+</Link>
+`;

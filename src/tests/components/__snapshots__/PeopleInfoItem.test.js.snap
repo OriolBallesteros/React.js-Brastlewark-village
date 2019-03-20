@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PeopleInfoItem component correctly 1`] = `
+<Fragment>
+  <Header />
+  <div
+    className="PeopleInfoItem"
+  >
+    <h1>
+      My name is 
+      Tobus Quickwhistle
+    </h1>
+    <img
+      height="200"
+      width="200"
+    />
+    <p>
+      I am 
+      306
+       years old. My hair's color is: 
+      Pink
+    </p>
+    <p>
+      My height is: 
+      107.75835
+      , my weight: 
+      39.065952
+      .
+    </p>
+    <div>
+      <p>
+        My beloved friends are:
+      </p>
+      <ul>
+        <li
+          key="0Cogwitz Chillwidget"
+        >
+          Cogwitz Chillwidget
+        </li>
+        <li
+          key="0Tinadette Chillbuster"
+        >
+          Tinadette Chillbuster
+        </li>
+      </ul>
+    </div>
+    <p>
+      I work as: 
+    </p>
+    <ul>
+      <li
+        key="0Metalworker"
+      >
+        Metalworker
+      </li>
+      <li
+        key="0Woodcarver"
+      >
+        Woodcarver
+      </li>
+    </ul>
+  </div>
+</Fragment>
+`;

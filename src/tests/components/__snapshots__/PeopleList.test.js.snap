@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PeopleList component correctly 1`] = `
+<Fragment>
+  <Header />
+  <div
+    className="PeopleList"
+  >
+    <p>
+      Your search have 
+      4
+       results
+    </p>
+    <p>
+      Click the name to see more info about him or her
+    </p>
+    <PeopleListItem
+      habitant={
+        Object {
+          "age": 306,
+          "friends": Array [
+            "Cogwitz Chillwidget",
+            "Tinadette Chillbuster",
+          ],
+          "hair_color": "Pink",
+          "height": 107.75835,
+          "id": 0,
+          "name": "Tobus Quickwhistle",
+          "professions": Array [
+            "Metalworker",
+            "Woodcarver",
+          ],
+          "weight": 39.065952,
+        }
+      }
+      key="0"
+    />
+    <PeopleListItem
+      habitant={
+        Object {
+          "age": 288,
+          "friends": Array [],
+          "hair_color": "Green",
+          "height": 110.43628,
+          "id": 1,
+          "name": "Fizkin Voidbuster",
+          "professions": Array [
+            "Brewer",
+            "Medic",
+          ],
+          "weight": 35.279167,
+        }
+      }
+      key="1"
+    />
+    <PeopleListItem
+      habitant={
+        Object {
+          "age": 166,
+          "friends": Array [
+            "Fizwood Voidtossle",
+          ],
+          "hair_color": "Red",
+          "height": 106.14395,
+          "id": 2,
+          "name": "Malbin Chromerocket",
+          "professions": Array [
+            "Cook",
+            "Baker",
+          ],
+          "weight": 35.88665,
+        }
+      }
+      key="2"
+    />
+    <PeopleListItem
+      habitant={
+        Object {
+          "age": 240,
+          "friends": Array [
+            "Sarabink Tinkbuster",
+            "Tinadette Wrongslicer",
+          ],
+          "hair_color": "Red",
+          "height": 127.88554,
+          "id": 3,
+          "name": "Midwig Gyroslicer",
+          "professions": Array [
+            "Carpenter",
+            "Farmer",
+          ],
+          "weight": 40.97596,
+        }
+      }
+      key="3"
+    />
+  </div>
+</Fragment>
+`;

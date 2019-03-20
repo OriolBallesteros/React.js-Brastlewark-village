@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App component correctly 1`] = `
+<header
+  className="Header"
+>
+  <h1>
+    Meet people in Brastlewark
+  </h1>
+  <NavLink
+    activeClassName="is-active"
+    aria-current="page"
+    className="NavLink"
+    exact={true}
+    to="/"
+  >
+    Go to filter
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    aria-current="page"
+    className="NavLink"
+    to="/searched"
+  >
+    Listed
+  </NavLink>
+</header>
+`;

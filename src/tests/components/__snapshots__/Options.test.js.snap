@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App component correctly 1`] = `
+<select
+  className="Option"
+  onChange={[MockFunction]}
+>
+  <option
+    key="1"
+    value={1}
+  >
+    1
+  </option>
+  <option
+    key="2"
+    value={2}
+  >
+    2
+  </option>
+  <option
+    key="3"
+    value={3}
+  >
+    3
+  </option>
+</select>
+`;
